@@ -3,6 +3,7 @@
 
 \usepackage{cite}
 \usepackage{graphicx}
+\usepackage{rotating}
 %download float barrier sty - uni mail
 \linespread{1.3}
 
@@ -72,10 +73,32 @@ It is evident from  \textbf{Graph 2} that membrane bound lipase is the most abun
 % change in morphology in LC1 and LuxR data
 
 \begin{figure}
+\includegraphics[scale=.65]{LC1_comp.png}
+\caption{Lipid colonising isolate LC1 cultured in the presence and abscence of lipid in LCM medium}
+\end{figure}
+
+\begin{figure}
 \includegraphics[scale=1.1]{LCM_LuxR.png}
 \caption{Response to LuxR bioassay by lipid colonising isolates, comparatively cultured in the presence and absence of lipid }
 \end{figure}
 
+
+\begin{sidewaystable}[!htbp]
+\begin{tabular}{ | l | p{9cm} | p{4.5cm} | l | }
+\hline
+Isolate & Bacteria with highest identity \& Acc. no. & CLass & E-value \\
+\hline
+1 &  Pandoraea sp. (KF378759.1) &  & 2e$^{-79}$ \\
+\hline
+2 & Uncultured Achromobacter sp. (KF448091.1) &  & 1e$^{-139}$ \\
+\hline
+3 & Enterobacter sp. (KF411353.1) &   & 0.0 \\
+\hline
+4 & Pseudomonas sp. (KC822768.1) &  & 0.0 \\
+\hline
+\end{tabular}
+\caption{Sequencing results for 16S rRNA fragments of lipid colonising isolates 1 - 4, the sequences used for identification can be found in Appendix x}
+\end{sidewaystable}
 
 \subsection{Micobial community changes in the presence of lipids}
 %DGGE and sequencing data
@@ -85,9 +108,79 @@ It is evident from  \textbf{Graph 2} that membrane bound lipase is the most abun
 \caption{Community structure of control and enriched cultures of replicate 4}
 \end{figure}
 
+\begin{sidewaystable}[!htbp]
+\begin{tabular}{ | p{1.2cm} | p{10cm} | p{4cm} | p{2cm} | }
+\hline
+DGGE band & Bacteria with highest identity \& Acc. no. & Class & E-value \\
+\hline
+1   &  Bacteroidetes (JX473581.1) &  & 8e$^{-45}$ \\
+\hline
+2  & Bacillus sp. (GU271888.1) & & 5e$^{-70}$ \\
+\hline
+3 & Uncultured Dechloromonas sp. (JQ012310.1) & & 0.0 \\
+\hline
+4 & Azospira oryzae (KF260987.1) & & 1E$^{-50}$ \\
+\hline
+5 & Uncultured Xanthmonadales (KC588330.1) &  & 0.0 \\
+\hline
+6 & Uncultured Dechloromonas sp. (KF003189.1) & & 4e$^{-103}$ \\
+\hline
+7 & Novosphingobium sp. (KF544940.1) & & 1e$^{-173}$ \\
+\hline
+8 & Novosphingobium (KF544932.1) & & 4e$^{-61}$ \\
+\hline
+9 & Sphingomoas sp. (AY521009.2) & & 0.0 \\
+\hline
+10 & Sphingomonas suberifaciens (AY521009.2) &  & 3e$^{-119}$ \\
+\hline
+11 & Sphingomonas sp. (JQ928361.1) &  & 5e$^{-86}$ \\
+\hline
+12 & Roseomonas sp.  (KF254767.1) & & 5e$^{-65}$ \\
+\hline
+\end{tabular}
+\caption{Sequencing results for 16S rRNA DGGE fragments of replicate 4, the sequences used for identification can be found in Appendix x}
+\end{sidewaystable}
+
 \begin{figure}
 \includegraphics[scale=1.2]{DGGE_misc_450bp_thesis.jpg}
 \caption{Community structure of aggregates, emulsions, secondary and tertiary enrichments}
 \end{figure}
+
+\begin{sidewaystable}[!htbp]
+\begin{tabular}{ | l | p{9cm} | p{4.5cm} | l | }
+\hline
+DGGE band & Bacteria with highest identity \& Acc. no. & Class & E-value \\
+\hline
+1 & Nevskia sp. (GQ845011.1) &   & 0.0  \\
+\hline
+2 & Sphingomonas sp. (KC172307.1) &   & 0.0 \\
+\hline
+3 & Sphingobium sp. (KF437579.1) &   & 2e$^{-74}$ \\
+\hline
+4 & Sphingomonas sp. (KF544924.1) &   & 0.0  \\
+\hline
+5 & Rhodovarius lipocyclicus (NR\_025629.1) &   & 3e$^{-114}$ \\
+\hline
+6 & Xanthobacter sp. (AB847934.1) &   & 5e$^{-86}$  \\
+\hline
+7 & Xanthobacter sp. (AB245351.1) &   & 3e$^{-45}$  \\
+\hline
+8 & Sphingomonas sp.(KF551133.1) &   & 2e$^{-100}$  \\
+\hline
+9 & Bradyrhizobium sp. (JX505076.1) &   & 3e$^{-165}$  \\
+\hline
+10 & Sphingomonas sp. (EF636068.1) &   & 0.0  \\
+\hline
+11 & Candidatus Competibacter sp. (JQ480426.1) &   & 1e$^{-123}$  \\
+\hline
+12 & Sphingomonas sp. (HE974351.1) &   &  1e$^{-148}$ \\
+\hline
+13 & Stakelama pacifica (HE662817.1) &   & 3e$^{-77}$  \\
+\hline
+14 & Oleomonas sagaranensis (AJ784808.1) &   & 6e$^{-101}$  \\
+\hline
+\end{tabular}
+\caption{Sequencing results for 16S rRNA DGGE fragments of various further enrichments, the sequences used for identification can be found in Appendix x}
+\end{sidewaystable}
 
 \end{document}
