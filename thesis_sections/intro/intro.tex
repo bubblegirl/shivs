@@ -4,7 +4,7 @@
         z3218219\\
         Supervisor: Mike Manefield}
 \date{}
-
+\usepackage{placeins}
 \usepackage[square,sort,comma,numbers]{natbib}
 \usepackage{rotating}
 \usepackage{multirow}
@@ -49,6 +49,7 @@ In wastewater treatment plants, the microbial community composition is strongly 
 
 
 \begin{sidewaystable}[!htbp]
+\caption{Studies characterising core microbiomes found in activated sludge.}
 \begin{tabular}{ | l | l | p{4.5cm} | p{7cm} | l | }
 \hline
 Study & Method & Sample size & Core microbiome composition & Refernce\\
@@ -65,21 +66,19 @@ Ranasinghe et al. & Pyrosequencing & 12 plants over two years, Japan & Proteobac
 \hline
 Xia et al. & Microarray & Three plants in China and two in USA & Proteobacteria wast the dominant phylum at 50 \% to 62 \%, where $\gamma$-proteobacteria represented  31 \% to 38 \% and $beta$-proteobacteria 30 \% to 35 \% & \cite{xia2010bacterial} \\
 \hline
-
 \end{tabular}
-\caption{Studies characterising core microbiomes found in activated sludge}
 \end{sidewaystable}
 
 
 \emph{Table xx} summarises methods used to analyse activated sludge microbial communities across geographical and operational settings, showing a core microbiome. Pyrosequencing and microarrays studies give a snapshot of the microbial community, including low level abundance organisms \cite{ranasinghe2012revealing}. DGGE gives an insight into the change in abundance of dominant organisms active under certain conditions and over time. 
-
+\FloatBarrier
 \subsubsection{\emph{Samples were aquired from activated sludge in St. Mary's wastewater treatment plant}}
 St Mary's municipal waste water treatment plant is where sample collection for this project took place. It is located in St Mary's in western Sydney serving a population of app. 160000 in a catchment area of 84 km$^{2}$ and discharges into the Hawkesbury-Nepean River. On a daily basis the plant processes about 35 million litres of wastewater. Wastewater can enter two influent streams - stage 1 and 2 or stage 3. The streams are subjected to differing primary treatments, however secondary and tertiary treatment is the same. The biological treatment is part of the secondary treatment stage, as can be seen in figure xx. The biological process is conducted in three stages (A/A/O): 1. Anaerobic zone, where microbes take up carbon and release phosphates; 2. Anoxic zone, where carbon is consumed and nitrates are released as nitrogen gas; 3. Aerobic zone, where nitrification of ammonia occurs and organic matter increasing the oxygen demand is reduced \cite{stmarys}.
 \begin{figure}
 \includegraphics[scale=0.9]{SMary_process.png}
 \caption{Wastewater processing as employed by St Mary's treatment plant \cite{stmarys}}
 \end{figure}
-
+\FloatBarrier
 \subsection{AHL mediated gene expression facilitates bacterial communication and co-operation}
 The principle of QS refers to bacterial communication and behavioural change in response to extracellular molecules, for example in biofilms \cite{webb2003}. These molecules diffuse in and out of the cells and trigger a change in transcriptomic regulation depending on their concentration. This allows the consortia, whether multi-species or cross-kingdom \citep{williams2007quorum}, to engage in a concerted effort that resembles multi-cellularity \cite{kjelleberg2002}. While there are several QS systems, this report focuses on AHL dependent QS only. The bacteria that facilitate this style of QS are predominately from the phylum proteobacteria, which are diverse and well represented in the environment and especially so in municipal activated sludge \cite{Hesham_11,Wagner_02}.  
 
@@ -115,6 +114,7 @@ Microbial lipases are secreted into the extracellular space, where they can cata
 The influence of AHL mediated gene expression on lipase production has been documented in several genera, discussed in this section with their respective classification and \emph{luxRI} homologs as can be seen in \emph{table xxx}.
 
 \begin{table}
+\caption{The taxonomic classification and \emph{luxRI} homologs for species shown to have AHL mediated influence on lipase expression.}
 \begin{tabular}{ | p{2.5cm} | p{3cm} | p{1.5cm} | p{1.5cm} | p{2.5cm} | }
 \hline
 Species & Taxonomy (class, order) & \emph{luxR} homologue & \emph{luxI} homologue & Reference/ GenBank accession \# \\
@@ -143,7 +143,6 @@ Species & Taxonomy (class, order) & \emph{luxR} homologue & \emph{luxI} homologu
 \emph{Serratia protemaculans} & \emph{$\gamma$-proteobacteria, Enterobacteriales} & \emph{sprR} & \emph{sprI} & AY040209.1 \\
 \hline
 \end{tabular}
-\caption{The taxonomic classification and \emph{luxRI} homologs for species shown to have AHL mediated influence on lipase expression.}
 \end{table}
 
 \emph{\underline{Burkholderia spp.}} 
@@ -174,7 +173,7 @@ The link between lipase expression, motility and virulence is established \cite{
 \\
 \\ \emph{\underline{Serratia spp.}} 
 \\Lipase production in both \emph{S. marcescens} and emph{S. proteamaculanss} is influenced by QS \cite{horng2002,shibatani2000,christensen_03}. Furthermore, in \emph{Serratia marcescens} surface attachment and biofilm formation in  is influenced by QS \cite{labbate2007} and all contribute to the virulent phenotype \cite{hejazi_97}.
-
+\FloatBarrier
 \subsection{Aims}
 
 This project explores the hypotheses that 
