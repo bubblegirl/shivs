@@ -2,6 +2,7 @@
 %\documentclass[draft]{article} for better debugging!
 
 \usepackage{cite}
+\usepackage{placeins}
 
 \linespread{1.3}
 
@@ -28,25 +29,33 @@ Bacto-tryptone    & 10 g  \\
 \end{tabular}
 \end{table}
 
-
-\subsection{}
+\FloatBarrier
 \begin{table}
-\caption{Lipase assay substrate solution}
+\caption{Lipase assay substrate solution, component A at 1x}
 \begin{tabular}{  p{6.9cm} | p{6.9cm} }
 \hline
-Component & Concentration (L) \\
+Component & Concentration (w/v) \\
 \hline
-  &  \\
-    &  \\
+ p-nitrophenyl palmitate   & 0.3 \% \\
+ Isopropanol &  \\
+ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+\caption{Lipase assay substrate solution, component B at 9x}
+\begin{tabular}{  p{6.9cm} | p{6.9cm} }
+\hline
+Component & Concentration (w/v) \\
+\hline
+ Gum arabicum & 0.1 \% \\
+  Sodium deoxycholate & 0.2 \% \\
+  Phosphate buffer, 50 mM pH 8   &  \\
   \hline
 \end{tabular}
 \end{table}
-mix:
-\begin{itemize}
-\item 1 times volume of 0.3 \% (w/v) p-nitrophenyl palmitate in isopropanol;
-\item 9 times volume of 0.2 \% (w/v) sodium deoxycholate and 0.1 \% (w/v) gum arabicum in 50 mM Phosphate buffer pH 8;
-\end{itemize}
-
+\FloatBarrier
+mix components A and B just prior to use
 
 \begin{table}
 \caption{Lipid coloniser medium}
@@ -79,7 +88,7 @@ Di-sodium phosphate  & 1.44 g \\
   \hline
 \end{tabular}
 \end{table}
-
+\FloatBarrier
 \subsection{Sequencing data of 16S rRNA DGGE fragments used to identify lipid colonising isolates}
 \begin{enumerate}
 \item GGGGGATGACGGTACCGGAAGAATAAGCACCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGTGCGCAGGCGGTTTTGTAAGACGGATGTGAAATCCCCGGGCTTAACCTGGGAACTGCATT
@@ -120,6 +129,7 @@ Di-sodium phosphate  & 1.44 g \\
 \item 
 \item 
 \end{enumerate}
+\FloatBarrier
 
 \begin{table}
 \caption{XS buffer}
@@ -135,6 +145,6 @@ Component & Concentration (L) \\
   \hline
 \end{tabular}
 \end{table}
-
+\FloatBarrier
 
 \end{document}
