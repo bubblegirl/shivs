@@ -5,6 +5,7 @@
 \usepackage{rotating}
 \usepackage[square,sort,comma,numbers]{natbib}
 \usepackage{graphicx}
+\usepackage{tabularx}
 \linespread{1.3}
 
 \addtolength{\textwidth}{2cm}
@@ -30,6 +31,7 @@
 \pagestyle{headings}
 \setcounter{page}{1}
 \pagenumbering{roman}
+
 \section{Abstract}
 Treatment of wastewater is essential for the function of our civilisation. The biological aspect of wastewater treatment plants employs microbial flocs to oxidise organic compounds in the waste influent, specifically in activated sludge. This is combined with chemical and physical remediation strategies to yield remediated effluent that can be released into the environment without posing a  threat. \\
 
@@ -58,8 +60,7 @@ xx
 
 \newpage
 \section{List of Abbreviation}
-\begin{table}
-\begin{tabular}{  p{6.9cm} | p{6.9cm} }
+\begin{tabularx}{\textwidth}{ p{4cm} | p{6.9cm} }
 \hline
 AHL & \emph{N}-acyl-L-homoserine lactone \\
 BLAST & Basic Local Alignment Search Tool  \\
@@ -93,8 +94,7 @@ v/v & volume per volume \\
 w/v & Weight per volume \\
 XS & xanthogenate-SDS \\
   \hline
-\end{tabular}
-\end{table}
+\end{tabularx}
 
 
 \newpage
