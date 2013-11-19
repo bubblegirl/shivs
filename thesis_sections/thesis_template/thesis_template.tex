@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[twoside]{article}
 
 \usepackage{placeins}
 \usepackage[nottoc,numbib]{tocbibind}
@@ -27,10 +27,11 @@
 \begin{document}
 
 \maketitle
-\thispagestyle{empty}
+\thispagestyle{plain}
 \pagestyle{headings}
 \setcounter{page}{1}
 \pagenumbering{roman}
+
 
 \section{Abstract}
 Treatment of wastewater is essential for the function of our civilisation. The biological aspect of wastewater treatment plants employs microbial flocs to oxidise organic compounds in the waste influent, specifically in activated sludge. This is combined with chemical and physical remediation strategies to yield remediated effluent that can be released into the environment without posing a  threat. \\
@@ -40,7 +41,7 @@ It is established that municipal wastewater activated sludge comprises a core mi
 The change in microbial composition due to extended lipid exposure is assessed using denaturing gradient gel electrophoresis as well as change in lipase expression. Furthermore lipid colonising microbes are isolated and screened for \emph{N}-acyl-L-homoserine lactone activity to assess a link with lipase expression. 
 \newpage
 \section{Acknowledgements}
-\thispagestyle{empty}
+\thispagestyle{plain}
 %Thank you to my supervisor, Mike Manefield, for advice, guidance and time. And most of all his infectious enthusiasm.\\
 
 %My gratitude also extends to my in no way co-supervisor, Tim Williams for his help and encouragement.\\
@@ -49,7 +50,7 @@ The change in microbial composition due to extended lipid exposure is assessed u
 
 %Credit to Drew and my friends, for helping me conserve a semblance of sanity and health. And all their shenannigans.
 \newpage
-\thispagestyle{empty}
+\thispagestyle{plain}
 \tableofcontents
 
 \newpage
@@ -58,17 +59,17 @@ The change in microbial composition due to extended lipid exposure is assessed u
 
 
 \section{•}
-\thispagestyle{empty}
+\thispagestyle{plain}
 \listoffigures
 
 \newpage
 \section{•}
-\thispagestyle{empty}
+\thispagestyle{plain}
 \listoftables
 
 \newpage
 \section{List of Abbreviation}
-\thispagestyle{empty}
+\thispagestyle{plain}
 \begin{tabularx}{\textwidth}{ p{4cm} | p{6.9cm} }
 \hline
 AHL & \emph{N}-acyl-L-homoserine lactone \\
@@ -107,9 +108,11 @@ XS & xanthogenate-SDS \\
 
 
 \newpage
+%\pagestyle{headings}
 \setcounter{page}{1}
 \pagenumbering{arabic}
 \section{Introduction}
+\thispagestyle{plain}
 Wastewater treatment plants are common in the global urban setting and a necessity for the continued function of our society. In such systems, fluid waste entering the plant, is purified largely through microbiological processes and the effluent can then be released into the environment. It is necessary to understand these microbiological processes underlying wastewater treatment in order to optimise the functionality of the plant, as the global human population expands and strains the Earth's finite water resources. In 1914 Arden and Lockett pioneered the development of wastewater plants using activated sludge \cite{ardern1914experiments}.\\
 
 Activated sludge consists of complex microbial communities living in cellular aggregates called flocculates (flocs). The formation of flocs in activated sludge is crucial for global wastewater treatment. Without floc formation activated sludge would not settle under gravity and the treated water could not be decanted or separated from the microbial biomass. Despite the importance of the formation of activated sludge flocs to human civilization, very little is known about how they arise, how they mature and how they ultimately lose activity as sludge age increases. These major scientific knowledge gaps prevent the rational engineering of microbial aggregates for wastewater treatment. The present study represents a stepping-stone towards addressing these knowledge gaps on floc formation through development of an experimental model of floc formation based on the interactions between activated sludge bacteria and lipids. \\
@@ -197,7 +200,7 @@ The machinery facilitating AHL-mediated gene expression consists of two major co
 These traits are usually under further control outside of AHL-mediated transcription factors as well as potential cross regulation between several QS systems within the organism \cite{juhas2005}.
 
 
-
+\markright{Role of intercellular signalling in sludge flocs and regulation of lipase regulation}
 \subsubsection{\emph{AHL responsive gene circuits are found in Proteobacteria}}
 The proteobacteria is the most prevalent phylum containing AHL dependent QS circuits \cite{gelencser_12}. In 2008 Case et al. compiled a list of isolates containing \emph{luxRI} homologs from 512 completed genomes on the NCBI platform, where 13 \% of those contained both \emph{luxR} and \emph{luxI}. These were exclusively from the phylum \emph{Proteobacteria} and were found in 26 \% of all finished proteobacterial genomes \cite{case_08}.
 The type II secretion system is only found in this phylum, usually associated with delivering QS influenced virulence factors and enzymes, such as lipase, into extracellular space \cite{sandkvist2001}. 
@@ -240,7 +243,9 @@ The link between lipase expression, motility and virulence is established \cite{
 \\Lipase production in both \emph{S. marcescens} and emph{S. proteamaculanss} is influenced by AHL- mediated gene expression \cite{horng2002,shibatani2000,christensen_03}. Furthermore, in \emph{Serratia marcescens} surface attachment and biofilm formation in is influenced by the same mechanism \cite{labbate2007} and all contribute to the virulent phenotype \cite{hejazi_97}.
 
 \newpage
+\markright{Experimental model of floc formation}
 \section{The development of an experimental model of activated sludge floc formation based on lipid as a substrate}
+\thispagestyle{plain}
 Major knowledge gaps exist in the scientific literature regarding the mechanistic processes governing floc formation and activity. For example, it is unclear how floc formation is initiated, how enzymatic activity is regulated within flocs, what role intercellular signalling plays in floc formation and activity or why flocs lose activity as activated sludge age increases. Given how important activated sludge floc formation and activity are to human civilization it is surprising such knowledge gaps exist. A promising approach to addressing these knowledge gaps is through development and interrogation of experimental models of floc formation. The absence of such models curtails scientific endeavour in the context of wastewater treatment.  \\
 
 The present study seeks to develop an experimental model system based on interactions between activated sludge bacteria and lipids. The choice of lipids as a substrate is justified by the high lipid content of wastewater and the high lipase activity in activated sludge. Further, the link between proteobacteria, which are abundant in activated sludge, and AHL dependent regulation of lipase activity offers an opportunity to explore the role of AHL mediated gene expression in activated sludge floc formation. The lipid chosen to develop the model is glycerol trioleate, which is the most abundant lipid in vegetable oil. The study is by necessity developmental with very little experimental information available as a starting point.\\
@@ -254,11 +259,14 @@ Specifically, the aims are:
 \item To document spatial relationships between glycerol trioleate and activated sludge bacteria.
 \item To describe the bacterial community composition of flocs in the presence of glycerol trioleate.
 \item To isolate and identify glycerol trioleate degrading bacteria from activated sludge.
+
+\markright{7 EXPERIMENTAL MODEL OF FLOC FORMATION}
 \item To test glycerol trioleate degrading bacteria from activated sludge for AHL production.
 \end{enumerate}
 \newpage
 
 \section{Methods}
+\thispagestyle{plain}
 \subsection{Enrichment cultures}
 
 Samples were aquired from activated sludge in St. Mary's, a municipal waste water treatment plant. It is located in St Mary's in western Sydney serving a population of app. 160000 in a catchment area of 84 km$^{2}$ and discharges into the Hawkesbury-Nepean River. On a daily basis the plant processes about 35 million litres of wastewater. Wastewater can enter two influent streams - stage 1 and 2 or stage 3. The streams are subjected to differing primary treatments, however secondary and tertiary treatment is the same. The biological treatment is part of the secondary treatment stage (Supplementary Material, Figure xx). The biological process is conducted in three stages: 1. Anaerobic zone, where microbes take up carbon and release phosphates; 2. Anoxic zone, where carbon is consumed and nitrates are released as nitrogen gas; 3. Aerobic zone, where nitrification of ammonia occurs and organic matter increasing the oxygen demand is reduced \cite{stmarys}.\\
@@ -325,6 +333,7 @@ Pre-cultures were centrifuged at 16.1 rcf for 10 min and 20 ml supernatant was t
 The assay was conducted in triplicate with \emph{Aeromonas hydrophila} GC1 as the positive control, LB10 as a blank and 2.5 nm, 1 nm and 0.5 nm OHHL as a comparative reference. Per microtitre plate well 20 $\mu$l of extract was added and the methanol left to evaporate, followed by addition and mixing of 100 $\mu$l \emph{E. coli} in it's exponential growth phase. After 4 hrs of incubation OD600 was read to verify \emph{E. coli} growth as well as fluorescence by excitation at 485 nm and then emission at 535 nm.
 \newpage
 \section{Results}
+\pagestyle{plain}
 \subsection{Partitioning behaviour of glyceryl trioleate in activated sludge}
 
 To establish an experimental model of floc formation based on interactions between lipids and bacteria in activated sludge it was first essential to examine the physical partitioning of lipids in sludge (Aim 1). Glyceryl trioleate (GT) was added to activated sludge samples in quadruplicate at 1 \% v/v. On addition GT formed a transparent and hydrophobic layer on the surface of the enrichment cultures, which was replaced with white droplets suspended below the culture surface within 7 days (Figure ,). While varying in size, the droplets consistently decreased in diameter with increased incubation period until they were indistinguishable from the sludge after 21 days. Droplet formation decreased floc settlement for the duration of their presence.\\
@@ -352,8 +361,8 @@ After addition of 2 \% (v/v) GT to activated sludge in quadruplicate, samples we
 
 Lipase activity was detected upon colorimetric change from p-nitrophenyl palmitate cleavage in the substrate solution. 
 Considerable variability was observed between replicates. Average lipase activity values for each fraction and time point are presented in Figures 5-8. Data from individual replicates is presented as supplementary information (Supplementary Material,  Figures c, x, z).
-An immediate increase of lypolytic activity in the EPS fraction (Figure b) within the first 3 days is evident (p=..) with a gradual decrease in activity observed thereafter, dropping to approximately 30 \% of the peak activity at  the end of the incubation period. 
-Conversely, the lipase activity in the supernatant fraction of the enriched cultures increased from day 3 onwards (p=..) (Figure m). The membrane bound lipase fraction displayed the highest lipase activity but did not differ between GT amended sludge samples and untreated controls (p=..) (Figure b). The enriched cultures displayed on average a higher total lipase activity (sum of the fractions) than the control replicates (Figure v).
+An significant increase (p=0.0001) of lypolytic activity in the EPS fraction (Figure b) within the first 3 days is evident with a gradual decrease in activity observed thereafter, dropping to approximately 30 \% of the peak activity at  the end of the incubation period. 
+Conversely, the lipase activity in the supernatant fraction of the enriched cultures increased from day 3,  significantly (p=0.0436) from day 9 to 22 (Figure m). The membrane bound lipase fraction displayed the highest lipase activity but did not differ between GT amended sludge samples and untreated controls (p=..) (Figure b). The enriched cultures displayed on average a higher total lipase activity (sum of the fractions) than the control replicates (Figure v).
                                                                                                                                                                                                                                          
 \begin{figure}
 \includegraphics[scale=1.1]{lip_eps.PNG}
@@ -517,6 +526,7 @@ Interestingly, both LC2 and LC3 evoked markedly higher LuxR responses when cultu
 
 \newpage
 \section{Discussion}
+\thispagestyle{plain}
 The function of our society depends on safe and efficient municipal wastewater remediation while sustainably recycling water and reducing environmental impact. Waste influent created by domestic households is extensive and fluctuates in composition. Hence the wastewater treatment system for influent remediation needs to be adaptable to deal with the volume and variability. The biological component employed by the treatment facilities is the least well understood aspect. This study sought to develop an experimental system to explore the interaction between lipids and activated sludge. Specifically, five aims were addressed relating to spatial aspects of lipid partitioning and colonization, impacts on bacterial community composition, isolation of lipid degrading bacteria and testing for AHL production.
 
 \subsection{Physical behaviour of lipids in activated sludge}
@@ -595,6 +605,7 @@ Furthermore characterisation with bioassays targeting a range of AHLs should be 
 Nonetheless a \emph{Pandoraea} sp.  As the activation was negligible in this study, this AHL may be out of the detection range of the LuxR bioassay and should be tested with the  bioassay.
 \newpage
 \section{Conclusions and Future directions}
+\thispagestyle{plain}
 Bacterial floc formation is essential for the remediation of domestic wastewater. This study has sought to supplement the limited information available about floc formation and establishing the impact that lipid addition has on activated sludge morphology as well as microbial community structure. Deciphering the nature of colonisation in a biofilm-like manner around lipid droplets would extend our understanding of the mechanism of remediation. Droplets could be fixed cryogenically and sectioned before microscopic analysis. Monitoring the change of colonisation over time could aid in establishing the floc life cycle based on lipid colonisation and consumption. \\
 
 
@@ -602,14 +613,14 @@ Determining the exact concentration of lipids which elicits droplet formation an
 
 Lipid droplet colonising isolates were screened with a LuxR biosensor for AHL production where 3 out of 5 isolates elicited a response from the biosensor. These isolates showed a higher AHL production when cultivated in the presence of lipid than without and the nature of the pink piggment produced by \emph{Pandoraea} sp. cultured with lipids should be investigated.
 \newpage 
-%fix inclusion of refereces in table of contents
+\thispagestyle{plain}
 \bibliographystyle{plain}
 \bibliography{thesis_ref.bib}
 
 \newpage 
 \FloatBarrier
 \section{Supplementary Material}
-
+\thispagestyle{plain}
 \begin{table}
 \caption{LB10 low yeast}
 \begin{tabular}{  p{6.9cm} | p{6.9cm} }
